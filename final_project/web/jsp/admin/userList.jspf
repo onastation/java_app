@@ -1,0 +1,20 @@
+<div class="center">
+    <h1>List of users</h1>
+
+    <table border="1">
+        <tr>
+            <td>ID</td>
+            <td>username</td>
+            <td>password</td>
+            <td>role</td>
+        </tr>
+        <c:forEach var="user" items="${user}">
+            <tr>
+                <td><c:out value="${user.id}"/></td>
+                <td><c:out value="${user.username}"/></td>
+                <td><c:out value="${user.passwd}"/></td>
+                <td><c:out value="${user.role}"/></td>
+            </tr>
+        </c:forEach>
+    </table>
+</div>

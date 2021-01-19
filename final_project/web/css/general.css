@@ -1,0 +1,10 @@
+.center {
+    margin: auto;
+    width: 80%;
+    border: 3px solid deepskyblue;
+    padding: 20px;
+}
+
+.error {
+    color : red;
+}

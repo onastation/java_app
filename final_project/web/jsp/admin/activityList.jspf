@@ -1,0 +1,18 @@
+<div class="center">
+    <h1>List of activities</h1>
+
+    <table border="1">
+        <tr>
+            <td>ID</td>
+            <td>Activity name</td>
+            <td>Activity category</td>
+        </tr>
+        <c:forEach var="activity" items="${activity}">
+            <tr>
+                <td><c:out value="${activity.id}"/></td>
+                <td><c:out value="${activity.name}"/></td>
+                <td><c:out value="${activity.category}"/></td>
+            </tr>
+        </c:forEach>
+    </table>
+</div>

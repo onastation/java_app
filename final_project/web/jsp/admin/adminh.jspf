@@ -1,0 +1,12 @@
+
+
+<div>
+    <h2>Welcome, admin</h2>
+    <a href="/admin/managingActivities">Activities</a>
+    <a href="/admin/managingUsers">Users</a>
+    <form action="logout">
+        <input type="submit" value="logout">
+    </form>
+</div>
+
+
